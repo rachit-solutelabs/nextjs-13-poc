@@ -5,7 +5,7 @@ export default function NextFontPage() {
     <>
       <main>
         <h2 className="topic-heading">
-          Showcasing font optimization with @next/font
+          {`@next/font doesn't work with Turbopack yet :(`}
         </h2>
       </main>
     </>
