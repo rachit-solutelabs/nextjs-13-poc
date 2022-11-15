@@ -79,9 +79,7 @@ code {
 }
 nav {
   background-color: rgb(240, 240, 240);
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  min-height: 100vh;
 }
 .nav-link {
   font-size: 1.5rem;
@@ -93,4 +91,7 @@ nav {
 .font-container {
   margin-top: 2rem;
   font-size: 3rem;
+}
+.underlined {
+  text-decoration: underline;
 }
