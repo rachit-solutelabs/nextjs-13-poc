@@ -3,7 +3,7 @@ import Link from "next/link";
 import imgWithTurbopack from "../../public/with_turbopack.png";
 import imgWithoutTurbopack from "../../public/without_turbopack.png";
 
-export default function Home() {
+export default function TurbopackPage() {
   return (
     <>
       <main>
