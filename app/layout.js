@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "./globals.css";
 
 /* eslint-disable @next/next/no-head-element */
 export default function RootLayout({ children }) {

@@ -79,9 +79,7 @@ code {
 }
 nav {
   background-color: rgb(240, 240, 240);
-  height: 100vh;
-  display: flex;
-  align-items: center;
+  min-height: 100vh;
 }
 .nav-link {
   font-size: 1.5rem;
@@ -89,4 +87,10 @@ nav {
 }
 .nav-link:hover {
   background-color: #f8f8f8;
+}
+.underlined {
+  text-decoration: underline;
+}
+.comparision-container {
+  margin-top: 2rem;
 }
