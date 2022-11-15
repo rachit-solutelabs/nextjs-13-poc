@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./globals.css";
 
 export default function Home() {
@@ -14,7 +15,14 @@ export default function Home() {
             The below cards use the new and improved Link component which
             doesn&apos;t require manually passing <code>{"<a></a>"}</code> tags.
           </p>
-          <div></div>
+          <div className="card-parent">
+            <Link href={"/turbopack"} className="card">
+              Turbopack
+            </Link>
+            <Link href={"/next-font"} className="card">
+              @next/font
+            </Link>
+          </div>
         </section>
       </main>
     </>

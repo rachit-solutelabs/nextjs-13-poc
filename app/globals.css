@@ -4,6 +4,7 @@ body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
 }
 main {
   padding: 0 3rem;
-  text-align: center;
+  /* text-align: center; */
 }
 main p,
 h1,
@@ -36,7 +37,7 @@ h4,
 h5,
 h6 {
   margin: auto;
-  width: 70%;
+  /* width: 70%; */
 }
 .topic-heading {
   margin-top: 3rem;
@@ -49,4 +50,43 @@ section {
 code {
   background-color: rgb(236, 236, 236);
   padding: 0 0.5rem;
+}
+.card-parent {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.card {
+  padding: 2rem;
+  border-radius: 2rem;
+  width: 400px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.card:hover {
+  background-color: #f8f8f8;
+}
+.layout {
+  display: flex;
+  justify-content: stretch;
+}
+.ul-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: rgb(240, 240, 240);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+.nav-link:hover {
+  background-color: #f8f8f8;
 }
