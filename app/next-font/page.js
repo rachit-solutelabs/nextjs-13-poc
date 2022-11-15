@@ -1,4 +1,3 @@
-import "../globals.css";
 import { Fjord_One, Quantico, Comic_Neue, Piazzolla } from "@next/font/google";
 
 const fjordOneFont = Fjord_One({ weight: "400", subsets: ["latin"] });
