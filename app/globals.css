@@ -90,3 +90,7 @@ nav {
 .nav-link:hover {
   background-color: #f8f8f8;
 }
+.font-container {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
