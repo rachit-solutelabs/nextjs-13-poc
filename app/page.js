@@ -11,7 +11,7 @@ export default function Home() {
         </h2>
         <section>
           <p>
-            The below cards use the new and improved Link component which
+            The below blocks use the new and improved Link component which
             doesn&apos;t require manually passing <code>{"<a></a>"}</code> tags.
           </p>
           <div className="card-parent">
